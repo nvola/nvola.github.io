@@ -1,0 +1,72 @@
+html{
+    background-image:url("mtrainier.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-weight: bold;
+}
+
+div.navbar{
+    width: 200px;
+    border-radius: 15px;
+    width: 75vh;
+    word-wrap: : normal;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.pages{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li.nav{
+    display: inline;
+    padding: 25px;
+}
+
+div.name{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%; 
+    word-wrap: normal; 
+    padding: 0 0 0 100;
+    border: 3px solid black;
+    font-size: 48pt;
+    line-height: 48pt;
+    text-align: center;   
+}
+
+div.foot{
+    right: 0px;
+    left: 0px;
+    bottom: 5px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border-radius: 15px; 
+    text-align:center; 
+    word-wrap: normal; 
+    padding: 15px; 
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: orangered;
+}
