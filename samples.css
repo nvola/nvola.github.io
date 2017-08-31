@@ -1,0 +1,58 @@
+html{
+    font-family: "Palatino Linotype", Palatino, serif;
+    background-image: url("sarchi2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+div.navbar{
+    width: 200px;
+    width: 75vh;
+    word-wrap: : normal;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-bottom: solid 2px black;
+}
+
+ul.pages{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li.nav{
+    display: inline;
+    padding: 25px;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: orangered;
+}
+
+div.main{
+    background-color: white;
+    opacity: .65;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 65%;
+    height: auto;
+    text-align: center;
+}
