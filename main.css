@@ -17,6 +17,8 @@ div.navbar{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    background-color: grey;
+    opacity: 0.6;
 }
 
 ul.pages{
@@ -45,26 +47,16 @@ div.name{
     border: 3px solid black;
     font-size: 48pt;
     line-height: 48pt;
-    text-align: center;   
-}
-
-div.foot{
-    right: 0px;
-    left: 0px;
-    bottom: 5px;
-    width: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px;
-    border-radius: 15px; 
-    text-align:center; 
-    word-wrap: normal; 
-    padding: 15px; 
+    text-align: center; 
 }
 
 a:link{
     text-decoration: none;
     color: black;
+}
+
+a:visited{
+    color:black;
 }
 
 a:hover{
