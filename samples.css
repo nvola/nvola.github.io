@@ -35,20 +35,21 @@ li.nav{
 
 a:link{
     text-decoration: none;
-    color: white;
-}
-
-a:visited{
-    color: white;
-}
-
-a:hover{
     color: orangered;
 }
 
+a:visited{
+    color: orangered;
+}
+
+a:hover{
+    color: teal;
+}
+
+
 div.main{
     background-color: white;
-    opacity: .65;
+    opacity: .75;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
